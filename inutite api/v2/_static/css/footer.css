@@ -1,0 +1,7 @@
+footer.bd-footer-content {
+    border-top: none;
+}
+
+.copyright {
+    color: var(--bs-gray-500);
+}

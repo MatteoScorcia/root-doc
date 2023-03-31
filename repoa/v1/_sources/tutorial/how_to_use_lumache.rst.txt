@@ -1,0 +1,6 @@
+How to use lumache
+==================
+
+reference here :ref:`install <installation>`
+
+bla bla bla

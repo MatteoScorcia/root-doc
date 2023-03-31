@@ -1,0 +1,9 @@
+.bd-header-article {
+    display: flex;
+}
+
+@media (min-width: 960px) {
+    .bd-header-article {
+        visibility: hidden;
+    }
+}

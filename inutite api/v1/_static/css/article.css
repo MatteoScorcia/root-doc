@@ -1,0 +1,31 @@
+.bd-main {
+    flex-grow: 1;
+}
+
+.bd-main .bd-content .bd-article-container .bd-article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
+}
+
+.bd-content {
+    min-width: 16rem;
+}
+
+.bd-article-container h1,
+.bd-article-container h2,
+.bd-article-container h3,
+.bd-article-container h4,
+.bd-article-container h5,
+.bd-article-container p.caption {
+    font-weight: bold;
+    color: var(--bs-gray-800);
+}
+
+a.headerlink {
+    color: var(--pst-color-primary-400);
+}
+
+dt:target, span.highlighted {
+    background-color: inherit;
+}

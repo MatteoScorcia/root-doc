@@ -1,0 +1,26 @@
+@media (max-width: 960px) {
+    .search-bar-btn {
+        display: none!important;
+    }
+}
+
+.search-bar-btn {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+}
+
+.search-bar-btn input:disabled {
+    background-color: var(--bs-gray-100);
+    cursor: pointer;
+}
+
+div.sidebar-primary-item:has(.search-bar-btn) {
+    padding-top: 0!important;
+    padding-bottom: 1rem!important;
+    border-bottom: 1px solid var(--pst-color-border);
+}
+
+#searchbox {
+    display: none;
+}

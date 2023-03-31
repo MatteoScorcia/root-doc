@@ -1,0 +1,16 @@
+.navbar-brand {
+    display: block;
+}
+
+div .navbar-brand.logo {
+    padding: 0;
+}
+
+.navbar-brand img {
+    height: 20px;
+}
+
+div.sidebar-primary-item:has(.navbar-brand) {
+    padding: 0!important;
+    padding-bottom: 0.5rem!important;
+}
